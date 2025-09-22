@@ -5,14 +5,14 @@ public class Day15 {
         int b = 19;
 
         // Operasi penjumlahan
-        int hasilTambah = a + b;
+        int Tambah = a + b;
         // Operasi pengurangan
-        int hasilKurang = a - b;
+        int Kurang = a - b;
 
         // Cetak hasil
         System.out.println("Nilai a = " + a);
         System.out.println("Nilai b = " + b);
-        System.out.println("Hasil penjumlahan dari a + b = " + hasilTambah);
-        System.out.println("Hasil pengurangan dari a - b = " + hasilKurang);
+        System.out.println("Hasil penjumlahan dari a + b = " + Tambah);
+        System.out.println("Hasil pengurangan dari a - b = " + Kurang);
     }
 }
