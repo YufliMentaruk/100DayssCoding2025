@@ -10,5 +10,11 @@ public class D0224508 {
             }else{
                 System.out.println("Ganjil");
             }
+
+            if(b%2==0){
+                System.out.println("Angka "+ b +" adalah Genap");
+            }else{
+                System.out.println("Angka "+ b +" adalah Ganjil");
+            }
       }
 }
