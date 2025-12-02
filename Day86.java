@@ -11,7 +11,7 @@ public class Day86 {
             System.out.print("Masukkan angka ke-" + (i + 1) + ": ");
             angka[i] = ip.nextInt();
         }
-        // Mencari angka maksimal
+        // Mencari angka minimal
         int min = angka[0];
         for (int i = 1; i < angka.length; i++) {
             if (angka[i] < min) {
